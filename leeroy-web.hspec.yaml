@@ -2,8 +2,7 @@ name: leeroy-web
 image:
    registry: registry.hub.docker.com
    name: vijaysamanuri/leeroy-web
-   tag: 1.0
-   dockerfile: {}
+   tag: {{ image_tag }}
 
 external: true
 ports:
